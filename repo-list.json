@@ -1,0 +1,18 @@
+{
+  "repos":[
+    https://github.com/killbill/killbill.git,
+    https://github.com/scireum/jpod.git,
+    https://github.com/kermitt2/grobid.git,
+    https://github.com/Lonzak/JPedal.git,
+    https://github.com/Credntia/PDFJet.git,
+    https://github.com/xwiki/xwiki-platform.git,
+    https://github.com/aws/aws-sdk-java.git,
+    https://github.com/apache/pdfbox.git,
+    https://github.com/jfree/jfreechart.git,
+    https://github.com/philburk/jsyn.git,
+    https://github.com/square/javapoet.git,
+    https://github.com/eclipse/jgit.git,
+    https://github.com/jhy/jsoup.git,
+    https://github.com/eclipse/eclipse.jdt.core.git
+  ]
+}
