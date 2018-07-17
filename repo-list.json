@@ -2,114 +2,96 @@
 	"repos":[
 		{"name": "killbill",
 			"url": "https://github.com/killbill/killbill.git",
+			"commit": "382381b",
+			"release": "0.18.21",
 			"state":{
 				"build": -1,
-				"test": -1,
+				"test": "02:54 min",
 				"deploy": false,
 				"run": false
 			}
 		},
 		{"name": "jpod",
 			"url": "https://github.com/scireum/jpod.git",
+			"commit": "0a28b84",
+			"release": "2.0",
 			"state":{
 				"build": -1,
-				"test": -1,
-				"deploy": false,
-				"run": false
-			}
-		},
-		{"name": "grobid",
-			"url": "https://github.com/kermitt2/grobid.git",
-			"state":{
-				"build": -1,
-				"test": -1,
-				"deploy": false,
-				"run": false
-			}
-		},
-		{"name": "JPedal",
-			"url": "https://github.com/Lonzak/JPedal.git",
-			"state":{
-				"build": -1,
-				"test": -1,
-				"deploy": false,
-				"run": false
-			}
-		},
-		{"name": "PDFJet",
-			"url": "https://github.com/Credntia/PDFJet.git",
-			"state":{
-				"build": -1,
-				"test": -1,
+				"test": "21.168 s",
 				"deploy": false,
 				"run": false
 			}
 		},
 		{"name": "xwiki-platform",
 			"url": "https://github.com/xwiki/xwiki-platform.git",
+			"commit": "4870682",
+			"release": "xwiki-platform-10.6-rc-1",
 			"state":{
 				"build": -1,
-				"test": -1,
+				"test": "30:07 min",
 				"deploy": false,
 				"run": false
 			}
 		},
 		{"name": "aws-sdk-java",
 			"url": "https://github.com/aws/aws-sdk-java.git",
+			"commit": "d28a35b",
+			"release": "1.11.368",
 			"state":{
 				"build": -1,
-				"test": -1,
+				"test": "07:06 min",
 				"deploy": false,
 				"run": false
 			}
 		},
 		{"name": "pdfbox",
 			"url": "https://github.com/apache/pdfbox.git",
+			"commit": "41f6295",
+			"release": "2.0.9",
 			"state":{
 				"build": -1,
-				"test": -1,
+				"test": "01:02 min",
 				"deploy": false,
 				"run": false
 			}
 		},
 		{"name": "jfreechart",
 			"url": "https://github.com/jfree/jfreechart.git",
+			"commit": "fd72df7",
+			"release": "1.5.0",
 			"state":{
 				"build": -1,
-				"test": -1,
-				"deploy": false,
-				"run": false
-			}
-		},
-		{"name": "jsyn",
-			"url": "https://github.com/philburk/jsyn.git",
-			"state":{
-				"build": -1,
-				"test": -1,
+				"test": "9.334 s",
 				"deploy": false,
 				"run": false
 			}
 		},
 		{"name": "javapoet",
 			"url": "https://github.com/square/javapoet.git",
+			"commit": "a5db06d",
+			"release": "javapoet-1.11.1",
 			"state":{
 				"build": -1,
-				"test": -1,
+				"test": " 14.016 s",
 				"deploy": false,
 				"run": false
 			}
 		},
 		{"name": "jgit",
 			"url": "https://github.com/eclipse/jgit.git",
+			"commit": "a7e38fb",
+			"release": "v5.0.1.201806211838-r",
 			"state":{
 				"build": -1,
-				"test": -1,
+				"test": "03:13 min",
 				"deploy": false,
 				"run": false
 			}
 		},
 		{"name": "jsoup",
 			"url": "https://github.com/jhy/jsoup.git",
+			"commit": "2b1ea06",
+			"release": "jsoup-1.11.3",
 			"state":{
 				"build": -1,
 				"test": -1,
