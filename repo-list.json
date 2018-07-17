@@ -109,6 +109,17 @@
 				"deploy": false,
 				"run": false
 			}
+		},
+		{"name": "jenkins",
+			"url": "https://github.com/jenkinsci/jenkins.git",
+			"commit": "85354aa",
+			"release": "jenkins-2.132",
+			"state":{
+				"build": -1,
+				"test": "55:16 min",
+				"deploy": false,
+				"run": false
+			}
 		}
 	]
 }
