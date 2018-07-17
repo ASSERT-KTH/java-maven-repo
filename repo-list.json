@@ -1,24 +1,130 @@
 {
-  "repos":[
-    {"name": "killbill",
-      "url": "https://github.com/killbill/killbill.git",
-      "state":{"build": false,
-               "test": false,
-               "deploy": false,
-               "run": false}
-    },
-    https://github.com/scireum/jpod.git,
-    https://github.com/kermitt2/grobid.git,
-    https://github.com/Lonzak/JPedal.git,
-    https://github.com/Credntia/PDFJet.git,
-    https://github.com/xwiki/xwiki-platform.git,
-    https://github.com/aws/aws-sdk-java.git,
-    https://github.com/apache/pdfbox.git,
-    https://github.com/jfree/jfreechart.git,
-    https://github.com/philburk/jsyn.git,
-    https://github.com/square/javapoet.git,
-    https://github.com/eclipse/jgit.git,
-    https://github.com/jhy/jsoup.git,
-    https://github.com/eclipse/eclipse.jdt.core.git
-  ]
+	"repos":[
+		{"name": "killbill",
+			"url": "https://github.com/killbill/killbill.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "jpod",
+			"url": "https://github.com/scireum/jpod.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "grobid",
+			"url": "https://github.com/kermitt2/grobid.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "JPedal",
+			"url": "https://github.com/Lonzak/JPedal.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "PDFJet",
+			"url": "https://github.com/Credntia/PDFJet.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "xwiki-platform",
+			"url": "https://github.com/xwiki/xwiki-platform.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "aws-sdk-java",
+			"url": "https://github.com/aws/aws-sdk-java.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "pdfbox",
+			"url": "https://github.com/apache/pdfbox.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "jfreechart",
+			"url": "https://github.com/jfree/jfreechart.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "jsyn",
+			"url": "https://github.com/philburk/jsyn.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "javapoet",
+			"url": "https://github.com/square/javapoet.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "jgit",
+			"url": "https://github.com/eclipse/jgit.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "jsoup",
+			"url": "https://github.com/jhy/jsoup.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "eclipse.jdt.core",
+			"url": "https://github.com/eclipse/eclipse.jdt.core.git",
+			"state":{
+				"build": -1,
+				"test": -1,
+				"deploy": false,
+				"run": false
+			}
+		}
+	]
 }
