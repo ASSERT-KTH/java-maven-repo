@@ -1,0 +1,36 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      https://maven.apache.org/xsd/settings-1.0.0.xsd">
+	<localRepository>/home/maven/.m2/repository</localRepository>
+	<profiles>
+		<profile>
+			<id>dev-with-additional-repos</id>
+			<repositories>
+				<repository>
+					<id>jcenter</id>
+					<name>bintray</name>
+					<url>http://jcenter.bintray.com</url>
+				</repository>
+				<repository>
+					<id>XWiki Releases Repository</id>
+					<name>XWiki Releases Repository for Maven</name>
+					<url>http://maven.xwiki.org/releases/</url>
+				</repository>
+				<repository>
+					<id>XWiki externals Repository</id>
+					<name>XWiki externals Repository for Maven</name>
+					<url>http://maven.xwiki.org/externals/</url>
+				</repository>
+				<repository>
+					<id>The University of Edinburgh Repository</id>
+					<name>The University of Edinburgh Repository for Maven</name>
+					<url>https://www2.ph.ed.ac.uk/maven2/</url>
+				</repository>
+			</repositories>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+	</profiles>
+</settings>
