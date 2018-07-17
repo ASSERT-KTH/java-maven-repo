@@ -105,7 +105,9 @@
 				"build": -1,
 				"test": -1,
 				"deploy": false,
-				"run": false
+				"run": false,
+				"commit":"4506b9cb",
+				"release":"I20180717-0320"
 			}
 		}
 	]
