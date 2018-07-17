@@ -1,6 +1,12 @@
 {
   "repos":[
-    https://github.com/killbill/killbill.git,
+    {"name": "killbill",
+      "url": "https://github.com/killbill/killbill.git",
+      "state":{"build": false,
+               "test": false,
+               "deploy": false,
+               "run": false}
+    },
     https://github.com/scireum/jpod.git,
     https://github.com/kermitt2/grobid.git,
     https://github.com/Lonzak/JPedal.git,
