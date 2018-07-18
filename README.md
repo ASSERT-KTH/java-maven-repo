@@ -5,7 +5,7 @@ List of github repo using maven as build tool.
 ## Prerequisites
 - Docker
 - bash
-- (jq)[https://stedolan.github.io/jq/]
+- [jq](https://stedolan.github.io/jq/)
 
 ## How to use
 Building the base image
