@@ -144,7 +144,6 @@
 				"run": false
 			}
 		},
-<<<<<<< HEAD
 		{"name": "authzforce-core",
 			"url": "https://github.com/authzforce/core.git",
 			"commit": "81d7d0c",
