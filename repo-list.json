@@ -120,6 +120,39 @@
 				"deploy": false,
 				"run": false
 			}
+		},
+		{"name": "jitsi-videobridge",
+			"url": "https://github.com/jitsi/jitsi-videobridge.git",
+			"commit": " ada89b6",
+			"release": "jitsi-meet_3233",
+			"state":{
+				"build": -1,
+				"test": "24.183 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "jicofo",
+			"url": "https://github.com/jitsi/jicofo.git",
+			"commit": "ba794d9",
+			"release": "jitsi-meet_3233",
+			"state":{
+				"build": -1,
+				"test": "53.435 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "libjitsi",
+			"url": "https://github.com/jitsi/libjitsi.git",
+			"commit": "5d74f78",
+			"release": "1059",
+			"state":{
+				"build": -1,
+				"test": "43.697 s",
+				"deploy": false,
+				"run": false
+			}
 		}
 	]
 }
