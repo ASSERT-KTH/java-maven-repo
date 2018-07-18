@@ -4,7 +4,8 @@
 			"url": "https://github.com/killbill/killbill.git",
 			"commit": "382381b",
 			"release": "0.18.21",
-			"state":{
+			"status":{
+				"regular":true,
 				"build": -1,
 				"test": "02:54 min",
 				"deploy": false,
@@ -15,7 +16,8 @@
 			"url": "https://github.com/scireum/jpod.git",
 			"commit": "0a28b84",
 			"release": "2.0",
-			"state":{
+			"status":{
+				"regular":true,
 				"build": -1,
 				"test": "21.168 s",
 				"deploy": false,
@@ -26,18 +28,44 @@
 			"url": "https://github.com/xwiki/xwiki-platform.git",
 			"commit": "4870682",
 			"release": "xwiki-platform-10.6-rc-1",
-			"state":{
+			"status":{
+				"regular":true,
 				"build": -1,
 				"test": "30:07 min",
 				"deploy": false,
 				"run": false
 			}
 		},
+		{"name": "xwiki-commons",
+				"url": "https://github.com/xwiki/xwiki-commons.git",
+				"commit": "790c587",
+				"release": "xwiki-commons-10.6-rc-1",
+				"status":{
+					"regular":true,
+					"build": -1,
+					"test": "03:53 min",
+					"deploy": false,
+					"run": false
+				}
+			},
+			{"name": "xwiki-rendering",
+					"url": "https://github.com/xwiki/xwiki-rendering.git",
+					"commit": "5ac6fb5",
+					"release": "xwiki-rendering-10.6-rc-1",
+					"status":{
+						"regular":false,
+						"build": -1,
+						"test": "04:10 min",
+						"deploy": false,
+						"run": false
+					}
+				},
 		{"name": "aws-sdk-java",
 			"url": "https://github.com/aws/aws-sdk-java.git",
 			"commit": "d28a35b",
 			"release": "1.11.368",
-			"state":{
+			"status":{
+				"regular":true,
 				"build": -1,
 				"test": "07:06 min",
 				"deploy": false,
@@ -48,7 +76,8 @@
 			"url": "https://github.com/apache/pdfbox.git",
 			"commit": "41f6295",
 			"release": "2.0.9",
-			"state":{
+			"status":{
+				"regular":true,
 				"build": -1,
 				"test": "01:02 min",
 				"deploy": false,
@@ -59,7 +88,8 @@
 			"url": "https://github.com/jfree/jfreechart.git",
 			"commit": "fd72df7",
 			"release": "1.5.0",
-			"state":{
+			"status":{
+				"regular":true,
 				"build": -1,
 				"test": "9.334 s",
 				"deploy": false,
@@ -70,7 +100,8 @@
 			"url": "https://github.com/square/javapoet.git",
 			"commit": "a5db06d",
 			"release": "javapoet-1.11.1",
-			"state":{
+			"status":{
+				"regular":true,
 				"build": -1,
 				"test": " 14.016 s",
 				"deploy": false,
@@ -81,7 +112,8 @@
 			"url": "https://github.com/eclipse/jgit.git",
 			"commit": "a7e38fb",
 			"release": "v5.0.1.201806211838-r",
-			"state":{
+			"status":{
+				"regular":true,
 				"build": -1,
 				"test": "03:13 min",
 				"deploy": false,
@@ -92,7 +124,8 @@
 			"url": "https://github.com/jhy/jsoup.git",
 			"commit": "2b1ea06",
 			"release": "jsoup-1.11.3",
-			"state":{
+			"status":{
+				"regular":true,
 				"build": -1,
 				"test": "7.344 s",
 				"deploy": false,
@@ -103,12 +136,145 @@
 			"url": "https://github.com/eclipse/eclipse.jdt.core.git",
 			"commit": "4506b9cb",
 			"release": "I20180717-0320",
-			"state":{
+			"status":{
+				"regular":false,
 				"build": -1,
-				"test": -1,
+				"test": "57:30 min",
 				"deploy": false,
 				"run": false
 			}
-		}
+		},
+		{"name": "authzforce-core",
+			"url": "https://github.com/authzforce/core.git",
+			"commit": "81d7d0c",
+			"release": "13.0.0",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "01:13 min",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "commons-cli",
+			"url": "https://github.com/apache/commons-cli.git",
+			"commit": "18f8576",
+			"release": "cli-1.4",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "14.641 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "commons-codec",
+			"url": "https://github.com/apache/commons-codec.git",
+			"commit": "db51a1c",
+			"release": "commons-codec-1.11",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "26.804 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "commons-collections",
+			"url": "https://github.com/apache/commons-collections.git",
+			"commit": "80238cd",
+			"release": "commons-collections-4.2",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "39.714 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "commons-io",
+			"url": "https://github.com/apache/commons-io.git",
+			"commit": "078af45",
+			"release": "commons-io-2.6-RC3",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "02:07 min",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "commons-lang",
+			"url": "https://github.com/apache/commons-lang.git",
+			"commit": "fa66bd9",
+			"release": "LANG_3_7",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "44.564 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "gson",
+			"url": "https://github.com/google/gson.git",
+			"commit": "9d44cbc",
+			"release": "gson-parent-2.8.5",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "15.305 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "jaxen",
+			"url": "https://github.com/jaxen-xpath/jaxen.git",
+			"commit": "a8bd805",
+			"release": "N/A",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "23.771 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "jopt-simple",
+			"url": "https://github.com/jopt-simple/jopt-simple.git",
+			"commit": "2f92a68",
+			"release": "jopt-simple-6.0-alpha-2",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "36.577 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "joda-time",
+			"url": "https://github.com/JodaOrg/joda-time.git",
+			"commit": "5f98d63",
+			"release": "v2.10",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "17.705 s",
+				"deploy": false,
+				"run": false
+			}
+		},
+		{"name": "scifio",
+			"url": "https://github.com/scifio/scifio.git",
+			"commit": "9562ad0",
+			"release": "scifio-0.37.0",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "01:19 min",
+				"deploy": false,
+				"run": false
+			}
+		},
 	]
 }
