@@ -1,3 +1,3 @@
 # TODO
 - [x] a todo list
-- [] fill the todolist
+- [ ] fill the todolist
