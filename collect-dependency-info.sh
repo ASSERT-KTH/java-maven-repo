@@ -9,6 +9,7 @@ for project in `ls -d *`
 do
 	echo "Project: $project"	
 	cd $project
-	mvn -o dependency:list | grep "    .*:.*:.*:.*" | cut -d] -f2- | sort | uniq > dependency.list
+	mvn install -Dmaven.test.skip=true
+	mvn dependency:list | grep "    .*:.*:.*:.*" | cut -d] -f2- | sort | uniq > dependency.list
 	cd ..
 done

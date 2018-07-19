@@ -323,6 +323,18 @@
 				"deploy": false,
 				"run": false
 			}
+		},
+		{"name": "lutece-core",
+			"url": "https://github.com/lutece-platform/lutece-core.git",
+			"commit": "010a52c",
+			"release": "lutece-core-6.1.1",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "43.697 s",
+				"deploy": false,
+				"run": false
+			}
 		}
 
 	]
