@@ -10,7 +10,10 @@
 				"test": "02:54 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"framework", "finance"
+			]
 		},
 		{"name": "jpod",
 			"url": "https://github.com/scireum/jpod.git",
@@ -22,7 +25,10 @@
 				"test": "21.168 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"framework", "pdf"
+			]
 		},
 		{"name": "xwiki-platform",
 			"url": "https://github.com/xwiki/xwiki-platform.git",
@@ -34,32 +40,41 @@
 				"test": "30:07 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"framework", "CMS"
+			]
 		},
 		{"name": "xwiki-commons",
-				"url": "https://github.com/xwiki/xwiki-commons.git",
-				"commit": "790c587",
-				"release": "xwiki-commons-10.6-rc-1",
-				"status":{
-					"regular":true,
-					"build": -1,
-					"test": "03:53 min",
-					"deploy": false,
-					"run": false
-				}
+			"url": "https://github.com/xwiki/xwiki-commons.git",
+			"commit": "790c587",
+			"release": "xwiki-commons-10.6-rc-1",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "03:53 min",
+				"deploy": false,
+				"run": false
 			},
-			{"name": "xwiki-rendering",
-					"url": "https://github.com/xwiki/xwiki-rendering.git",
-					"commit": "5ac6fb5",
-					"release": "xwiki-rendering-10.6-rc-1",
-					"status":{
-						"regular":false,
-						"build": -1,
-						"test": "04:10 min",
-						"deploy": false,
-						"run": false
-					}
-				},
+			"tag":[
+				"library", "CMS"
+			]
+		},
+		{"name": "xwiki-rendering",
+			"url": "https://github.com/xwiki/xwiki-rendering.git",
+			"commit": "5ac6fb5",
+			"release": "xwiki-rendering-10.6-rc-1",
+			"status":{
+				"regular":false,
+				"build": -1,
+				"test": "04:10 min",
+				"deploy": false,
+				"run": false
+			},
+			"tag":[
+				"library", "CMS"
+			]
+		},
 		{"name": "aws-sdk-java",
 			"url": "https://github.com/aws/aws-sdk-java.git",
 			"commit": "d28a35b",
@@ -70,7 +85,10 @@
 				"test": "07:06 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"framework", "micro-services"
+			]
 		},
 		{"name": "pdfbox",
 			"url": "https://github.com/apache/pdfbox.git",
@@ -82,7 +100,10 @@
 				"test": "01:02 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "pdf"
+			]
 		},
 		{"name": "jfreechart",
 			"url": "https://github.com/jfree/jfreechart.git",
@@ -94,7 +115,10 @@
 				"test": "9.334 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "chart"
+			]
 		},
 		{"name": "javapoet",
 			"url": "https://github.com/square/javapoet.git",
@@ -106,7 +130,10 @@
 				"test": " 14.016 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "code"
+			]
 		},
 		{"name": "jgit",
 			"url": "https://github.com/eclipse/jgit.git",
@@ -118,7 +145,10 @@
 				"test": "03:13 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"application", "code"
+			]
 		},
 		{"name": "jsoup",
 			"url": "https://github.com/jhy/jsoup.git",
@@ -130,7 +160,10 @@
 				"test": "7.344 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "html"
+			]
 		},
 		{"name": "eclipse.jdt.core",
 			"url": "https://github.com/eclipse/eclipse.jdt.core.git",
@@ -142,7 +175,10 @@
 				"test": "57:30 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "code"
+			]
 		},
 		{"name": "authzforce-core",
 			"url": "https://github.com/authzforce/core.git",
@@ -154,7 +190,10 @@
 				"test": "01:13 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "security"
+			]
 		},
 		{"name": "commons-cli",
 			"url": "https://github.com/apache/commons-cli.git",
@@ -166,7 +205,10 @@
 				"test": "14.641 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "dev"
+			]
 		},
 		{"name": "commons-codec",
 			"url": "https://github.com/apache/commons-codec.git",
@@ -178,7 +220,10 @@
 				"test": "26.804 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "dev"
+			]
 		},
 		{"name": "commons-collections",
 			"url": "https://github.com/apache/commons-collections.git",
@@ -190,7 +235,10 @@
 				"test": "39.714 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "dev"
+			]
 		},
 		{"name": "commons-io",
 			"url": "https://github.com/apache/commons-io.git",
@@ -202,7 +250,10 @@
 				"test": "02:07 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "dev"
+			]
 		},
 		{"name": "commons-lang",
 			"url": "https://github.com/apache/commons-lang.git",
@@ -214,7 +265,10 @@
 				"test": "44.564 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "dev"
+			]
 		},
 		{"name": "gson",
 			"url": "https://github.com/google/gson.git",
@@ -226,7 +280,10 @@
 				"test": "15.305 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "json"
+			]
 		},
 		{"name": "jaxen",
 			"url": "https://github.com/jaxen-xpath/jaxen.git",
@@ -238,7 +295,10 @@
 				"test": "23.771 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "xml"
+			]
 		},
 		{"name": "jopt-simple",
 			"url": "https://github.com/jopt-simple/jopt-simple.git",
@@ -250,7 +310,10 @@
 				"test": "36.577 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "dev"
+			]
 		},
 		{"name": "joda-time",
 			"url": "https://github.com/JodaOrg/joda-time.git",
@@ -262,7 +325,10 @@
 				"test": "17.705 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "dev"
+			]
 		},
 		{"name": "scifio",
 			"url": "https://github.com/scifio/scifio.git",
@@ -274,7 +340,10 @@
 				"test": "01:19 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "media"
+			]
 		},
 		{"name": "jenkins",
 			"url": "https://github.com/jenkinsci/jenkins.git",
@@ -286,7 +355,10 @@
 				"test": "55:16 min",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"application", "dev"
+			]
 		},
 		{"name": "jitsi-videobridge",
 			"url": "https://github.com/jitsi/jitsi-videobridge.git",
@@ -298,7 +370,10 @@
 				"test": "24.183 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"application", "media"
+			]
 		},
 		{"name": "jicofo",
 			"url": "https://github.com/jitsi/jicofo.git",
@@ -310,7 +385,10 @@
 				"test": "53.435 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"application", "media"
+			]
 		},
 		{"name": "libjitsi",
 			"url": "https://github.com/jitsi/libjitsi.git",
@@ -322,7 +400,10 @@
 				"test": "43.697 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "media"
+			]
 		},
 		{"name": "lutece-core",
 			"url": "https://github.com/lutece-platform/lutece-core.git",
@@ -334,8 +415,25 @@
 				"test": "43.697 s",
 				"deploy": false,
 				"run": false
-			}
+			},
+			"tag":[
+				"library", "CMS"
+			]
+		},
+		{"name": "Openfire",
+			"url": "https://github.com/igniterealtime/Openfire.git",
+			"commit": "64f4629",
+			"release": "v4.2.3",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "39.635 s",
+				"deploy": false,
+				"run": false
+			},
+			"tag":[
+				"application", "media"
+			]
 		}
-
 	]
 }
