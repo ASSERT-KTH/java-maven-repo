@@ -434,6 +434,21 @@
 			"tag":[
 				"application", "media"
 			]
+		},
+		{"name": "javassist",
+			"url": "https://github.com/jboss-javassist/javassist.git",
+			"commit": "a59658d",
+			"release": "rel_3_23_1_ga",
+			"status":{
+				"regular":true,
+				"build": -1,
+				"test": "22.221 s",
+				"deploy": false,
+				"run": false
+			},
+			"tag":[
+				"library", "dev"
+			]
 		}
 	]
 }
